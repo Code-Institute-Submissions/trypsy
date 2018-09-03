@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/*-----------------------------------------------------------colors*/
+
+body {
+    background-color: black;
+}
+
+.bg-color-listen {
+    background-color: rgba(0, 0, 255, 0.1);
+}
+
+.bg-color-gigs {
+    background-color: rgba(0, 255, 255, 0.1);
+}
+
+.bg-color-bookings {
+    background-color: rgba(255, 0, 0, 0.1);
+}
+
+/*-----------------------------------------------------------landing-page header*/
+
+.landing-page-section {
+    height: 100vh;
+
+    background: url(/assets/images/violin-lights.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+}
+
+.border-box {
+    border-style: groove;
+    border-color: rgba(0, 0, 120, 0.1);
+    padding: 30px;
+    margin: auto;
+    background-color: rgba(0, 0, 210, 0.1);
+}
+
+.trypsy-heading {
+    text-align: center;
+    font-size: 3.5em;
+    letter-spacing: 1.3em;
+    font-family: "Roboto";
+    color: white;
+    text-decoration: none;
+    padding-top: 20px;
+}
+
+.trypsy-descriptor {
+    text-align: center;
+    font-size: 1.8em;
+    font-family: "Roboto";
+    letter-spacing: 0.3em;
+    color: #C0C0C0;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.btn-default {
+    width: 10em;
+    color: #989898;
+    border-radius: 3em;
+}
+
+.center-align{
+    float: center-align;
+}
+
+.social-links li a i {
+    height: 2.5em;
+    width: 2.5em;
+    border-radius: 50%;
+    line-height: 2em;
+    text-align: center;
+    color: #fafafa;
+    background-color: #989898;
+}
+
+.social-links li a i:hover {
+    background-color: #e84610;
+    color: #9932CC;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.links-wrapper {
+    padding-top: 3em;
+    margin: auto;
+}
+
+h1,
+h4 {
+    margin: 0;
+}
+
+.line-seperator hr {
+    color: grey;
+}
+
+/*-----------------------------------------------------------side-bar slider nav*/
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    color: white;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Roboto";
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 50px;
+    margin-left: 50px;
+}
+
+.explore-btn-style {
+    margin: 20px 20px 20px 20px;
+    color:white;
+    border-color: white;
+}
+
+#explore-menu {}
+
+/*-----------------------------------------------------------landing-page-3-options-nav*/
+
+.listen-text {
+    font-size: 1em;
+    font-family: "Roboto";
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: white;
+}
+
+.gigs-text {
+    font-size: 1em;
+    font-family: "Roboto";
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: white;
+}
+
+.bookings-text {
+    font-size: 1em;
+    font-family: "Roboto";
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: white;
+}
+
+.listen-icon,
+.gigs-icon,
+.bookings-icon,
+i a {
+    font-size: 2em;
+    color: white;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
+
+.equal {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+}
+
+/*-----------------------------------------------------------listen.html page*/
+
+.bottom-btns {
+    margin: 1em 0em 0em 0em;
+}
+
+.btnRadius {
+    border-radius: .5em;
+}
+
+.btn-pre-navStyle {
+    font-size: 1em;
+    color: white;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
+
+.soundcloud-links li a i {
+    height: 1.5em;
+    width: 1.5em;
+    border-radius: 50%;
+    line-height: 1.5em;
+    margin-top: 1em;
+    margin-right: 1em;
+    text-align: center;
+    color: #fafafa;
+    background-color: orange;
+}
+
+.soundcloud-links li a i:hover {
+    background-color: #e84610;
+    color: #9932CC;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+/*-----------------------------------------------------------gigs.html*/
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    border-left: 1px solid;
+    color: #e7e7e7;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item::before {
+    content: attr(dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: .8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    border-left: 1px solid;
+    color: #fafafa;
+
+}
+
+.timeline-item p {
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.timeline-item::before {
+    content: attr(dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: .8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item::after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: " ";
+    background: #fafafa;
+}
+
+.gig-listings {
+    padding: 1em;
+}
+
+.gigPg-heading {
+    color: white;
+}
+
+.gig-links {
+    text-align: right;
+}
+
+
+/*-----------------------------------------------------------bookings.html*/
+
+.form-marginStyle {
+    margin-top: 1em;
+}
+
+.download-text p {
+    color: white;
+    text-align: right;
+    text-decoration: none;
+}
+
+.message-input-radius {
+    border-width: thin;
+    border-radius: .5em;
+    border-color: #e7e7e7;
+}
+
+/*-----------------------------------------------------------about.html*/
+
+.about-section-image {
+    height: 50vh;
+
+    background: url(/assets/images/trypsy.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+}
+
+.paragraph-about p {
+    font-family: "Roboto";
+    font-size: 40px;
+    color: white;
+    padding: 10px 10px 10px 10px;
+
+}
+
+.member-name {
+    padding-bottom: 10px;
+}
+
+.member-p {
+    padding-bottom: 10px;
+}
+
+/*-----------------------------------------------------------music*/
+
+.buy-music {
+    background-color: #f6f6f6;
+}
+
+.scale-icon {
+    padding-left: 10px;
+}
+
+.music-download-icon {
+    padding-left: 10px;
+}
+
+/*-----------------------------------------------------------contact*/
+
+.connect-links li a i {
+    height: 2.5em;
+    width: 2.5em;
+    border-radius: 50%;
+    line-height: 2.3em;
+    text-align: center;
+    font-size: 2em;
+    color: #fafafa;
+    background-color: #989898;
+}
+
+.connect-links li a i:hover {
+    background-color: #e84610;
+    color: #9932CC;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.bg-color-connect {
+    background-color: #BA55D3;
+}
+
+.connect-header {
+    text-align: center;
+    color: #ffffff;
+}
+
+.connect-position li a i {
+    float: center;
+}
+
+/*-----------------------------------------------------------images*/
+
+.trypsy-about-image {
+    padding: 10px 10px 10px 10px;
+}
+
+/*-----------------------------------------------------------animations & transitions*/
+
+.bookings-text {
+    transition: all .2s ease-in-out;
+}
+
+.bookings-text:hover {
+    transform: scale(1.1);
+    color: #ffffff;
+}
+
+.listen-text {
+    transition: all .2s ease-in-out;
+}
+
+.listen-text:hover {
+    transform: scale(1.1);
+    color: #ffffff;
+}
+
+.gigs-text {
+    transition: all .2s ease-in-out;
+}
+
+.gigs-text:hover {
+    transform: scale(1.1);
+    color: #ffffff;
+}
+
+.btm-btn-hover {
+    transition: all .2s ease-in-out;
+}
+
+.btm-btn-hover:hover {
+    transform: scale(1.1);
+    color: #ffffff;
+}
+
+/*-----------------------------------------------------------footer*/
+
+.footer-container {
+    background-color: black;
+    margin: 1em;
+}
+
+.footer-text {
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    padding-top: 0.5em;
+}
+
+.social-links-align {
+    text-align: center;
+}
+
+/*-----------------------------------------------------------media-queries*/
+
+@media only screen and (max-width: 600px) {
+/*-----------------------------------------------------------landing-pg media-queries*/
+    .trypsy-heading {
+        font-size: 2.6em;
+        letter-spacing: 0.9em;
+        font-family: "Roboto";
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        padding-top: 20px;
+    }
+
+    .trypsy-descriptor {
+        font-size: 1.5em;
+        font-family: "Roboto";
+        letter-spacing: 0.2em;
+        color: #C0C0C0;
+        padding-top: 20px;
+        padding-left: 30px;
+    }
+
+    .border-box {
+        border-style: groove;
+        border-color: rgba(0, 0, 120, 0.1);
+        padding: 1px;
+        margin: auto;
+        background-color: rgba(0, 0, 210, 0.1);
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .trypsy-heading {
+        font-size: 2em;
+        letter-spacing: 0.9em;
+        font-family: "Roboto";
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        padding-top: 20px;
+    }
+
+    .trypsy-descriptor {
+        font-size: 1em;
+        font-family: "Roboto";
+        letter-spacing: 0.2em;
+        color: #C0C0C0;
+        padding-top: 20px;
+        padding-left: 30px;
+    }
+
+    .border-box {
+        border-style: groove;
+        border-color: rgba(0, 0, 120, 0.1);
+        padding: 1px;
+        margin: auto;
+        background-color: rgba(0, 0, 210, 0.1);
+    }
+
+}
+/*-----------------------------------------------------------end landing-pg media-queries*/
