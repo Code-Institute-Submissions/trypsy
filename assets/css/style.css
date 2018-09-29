@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Give+You+Glory|Merienda:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 /*-----------------------------------------------------------colors*/
 
@@ -16,6 +18,30 @@ body {
 
 .bg-color-bookings {
     background-color: rgba(255, 0, 0, 0.1);
+}
+
+.bg-color-3opt-listen {
+    background-color: #2c252e;
+    border-style: groove;
+    border-color: white;
+}
+
+.bg-color-buy-music {
+    background-color: #f6f6f6;
+}
+
+.ul-3-opt-nav-colour-gig {
+    background-color: #42407B;
+}
+
+.ul-3-opt-nav-colour-book {
+    background-color: #67407B;
+}
+
+/*-----------------------------------------------------------globals*/
+
+.spacer {
+    margin-bottom: 50px;
 }
 
 /*-----------------------------------------------------------landing-page header*/
@@ -46,17 +72,34 @@ body {
     font-size: 3.5em;
     letter-spacing: 1.3em;
     font-family: "Roboto";
-    color: white;
+    color: #cccccc;
     text-decoration: none;
     padding-top: 20px;
 }
+
+.small-header {
+    width: 100%;
+    background-color: black;
+}
+
+.trypsy-heading-small {
+    font-size: 1.2em;
+    letter-spacing: .3em;
+    font-family: "Roboto";
+    color: #cccccc;
+    text-decoration: none;
+    padding-top: 5px;
+    float: left;
+    padding-left: 10px;
+}
+
 
 .trypsy-descriptor {
     text-align: center;
     font-size: 1.8em;
     font-family: "Roboto";
     letter-spacing: 0.3em;
-    color: #C0C0C0;
+    color: #cccccc;
     padding-top: 20px;
     padding-left: 30px;
 }
@@ -67,8 +110,8 @@ body {
     border-radius: 3em;
 }
 
-.center-align{
-    float: center-align;
+.center-align {
+    float: center;
 }
 
 .social-links li a i {
@@ -134,6 +177,8 @@ h4 {
     color: #f1f1f1;
 }
 
+/* --------------------this class isn't working*/
+
 .sidenav.closebtn {
     position: absolute;
     top: 0;
@@ -144,11 +189,10 @@ h4 {
 
 .explore-btn-style {
     margin: 20px 20px 20px 20px;
-    color:white;
+    color: white;
     border-color: white;
+    font-size: 1.5em;
 }
-
-#explore-menu {}
 
 /*-----------------------------------------------------------landing-page-3-options-nav*/
 
@@ -194,6 +238,98 @@ i a {
 
 /*-----------------------------------------------------------listen.html page*/
 
+.menuItem {
+    text-align: center;
+    padding: 0;
+    height: 120px;
+}
+
+.menuItem a {
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff;
+    height: 120px;
+}
+
+.menuItem a i {
+    padding-top: 22px;
+    display: block;
+    color: #fafafa;
+    font-size: 26px;
+}
+
+.menuItem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.2);
+    height: 120px;
+}
+
+.BKG {
+    background-color: #2c252e;
+    border-radius: 2px;
+}
+
+.p-text {
+    color: #C0C0C0;
+    font-size: 3.5em;
+    padding-left: 100px;
+    font-family: 'Give You Glory', cursive;
+}
+
+.p-text-small {
+    color: #C0C0C0;
+    font-size: 1.5em;
+    font-family: 'Give You Glory', cursive;
+}
+
+.listen-tt {
+    padding-left: 10px;
+}
+
+.section-block {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.header-container {
+    background: url(/assets/images/overhead.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    margin: 50px;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+.p-container {
+    background: url(/assets/images/glowBKG.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    border-radius: 5px;
+}
+
 .bottom-btns {
     margin: 1em 0em 0em 0em;
 }
@@ -204,9 +340,23 @@ i a {
 
 .btn-pre-navStyle {
     font-size: 1em;
-    color: white;
+    color: #cccccc;
     letter-spacing: 0.1em;
     text-align: left;
+}
+
+.social-listen li a i {
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+}
+
+.social-listen li a i:hover {
+    color: orange;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 .soundcloud-links li a i {
@@ -232,67 +382,38 @@ i a {
 
 /*-----------------------------------------------------------gigs.html*/
 
-.timeline-item {
-    padding: 4em 2em 0em 2em;
-    position: relative;
-    border-left: 1px solid;
-    color: #e7e7e7;
+.upcoming-gigs-container {
+    background-color: #EFEEDE;
+    display: flex;
+    margin: 10px;
 }
 
-.timeline-item p {
-    padding: 0;
-    margin: 0;
+.date-box-gigs {
+    background-color: #DAE5EF;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
 }
 
-.timeline-item::before {
-    content: attr(dates);
-    position: absolute;
-    left: 2.5em;
-    top: 3em;
-    display: block;
-    font-family: "Exo", sans-serif;
-    font-weight: 500;
-    font-size: .8em;
-    padding: 0;
-    margin: 0;
+.venue-box-gigs {
+    background-color: #EFDAE2;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
 }
 
-.timeline-item {
-    padding: 4em 2em 0em 2em;
-    position: relative;
-    border-left: 1px solid;
-    color: #fafafa;
-
+.ticket-box-gigs {
+    background-color: #E7EFDA;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
 }
 
-.timeline-item p {
-    padding-bottom: 0;
-    margin: 0;
-}
-
-.timeline-item::before {
-    content: attr(dates);
-    position: absolute;
-    left: 2.5em;
-    top: 3em;
-    display: block;
-    font-family: "Exo", sans-serif;
-    font-weight: 500;
-    font-size: .8em;
-    padding: 0;
-    margin: 0;
-}
-
-.timeline-item::after {
-    width: 12px;
-    height: 12px;
-    display: block;
-    top: 2.4em;
-    position: absolute;
-    left: -6px;
-    border-radius: 12px;
-    content: " ";
-    background: #fafafa;
+.ticket-box-gigs a {
+    text-decoration: none;
 }
 
 .gig-listings {
@@ -301,17 +422,55 @@ i a {
 
 .gigPg-heading {
     color: white;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 .gig-links {
     text-align: right;
 }
 
-
 /*-----------------------------------------------------------bookings.html*/
 
+.header-container-bookings {
+    background: url(/assets/images/castle.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    padding: 150px;
+    border-radius: 5px;
+}
+
+.footer-container-bookings {
+    background: url(/assets/images/castle.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    padding: 150px;
+    border-radius: 5px;
+}
+
+.formbox {
+    padding-left: 250px;
+}
+
+.section-container-bookings {
+    margin: 80px;
+    padding: 80px;
+}
+
 .form-marginStyle {
-    margin-top: 1em;
+    margin-top: 20px;
 }
 
 .download-text p {
@@ -452,26 +611,43 @@ i a {
 
 /*-----------------------------------------------------------footer*/
 
-.footer-container {
-    background-color: black;
-    margin: 1em;
-}
-
 .footer-text {
     color: white;
     font-size: 1em;
-    text-align: center;
-    padding-top: 0.5em;
+    padding: 0.5em;
 }
 
-.social-links-align {
-    text-align: center;
+.social-links-footer {
+    padding: 0.5em;
+    letter-spacing: 0.1em;
+    float: right;
+}
+
+.footer-container {
+    background-color: black;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+/*-----------------------------------------------------------placholder*/
+.section-under-construction{
+    padding:150px;
+    background-color: white;
+}
+
+.text-under-construction{
+    padding:30px;
 }
 
 /*-----------------------------------------------------------media-queries*/
 
+@media only screen and (max-width: 991px) {
+    .formbox {
+        padding-left: 20px;
+    }
+}
+
 @media only screen and (max-width: 600px) {
-/*-----------------------------------------------------------landing-pg media-queries*/
     .trypsy-heading {
         font-size: 2.6em;
         letter-spacing: 0.9em;
@@ -498,7 +674,104 @@ i a {
         margin: auto;
         background-color: rgba(0, 0, 210, 0.1);
     }
+
+    .header-container {
+        background: url(/assets/images/overhead.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+        display: flex;
+        align-items: center;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .p-container {
+        background: url(/assets/images/glowBKG.png) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+        display: flex;
+        align-items: center;
+        margin-bottom: 5px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        border-radius: 5px;
+    }
+
+    .p-text {
+        color: #333333;
+        font-size: 2.5em;
+        padding-left: 100px;
+        font-family: 'Give You Glory', cursive;
+    }
+
+    .social-links-footer {
+        text-align: center;
+    }
+
+    .footer-text {
+        color: white;
+        font-size: 1em;
+        padding: 0.5em;
+        text-align: center;
+    }
+
+    .section-container {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .listen-tt {
+        padding: 5px;
+    }
+
+    .section-block {
+        padding: 5px;
+    }
+
+    .formbox {
+        padding-left: 0px;
+    }
+
+    .footer-container-bookings {
+        background: url(/assets/images/castle.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+        display: flex;
+        align-items: center;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 5px;
+    }
+
+    .header-container-bookings {
+        background: url(/assets/images/castle.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+        display: flex;
+        align-items: center;
+        margin: 5px;
+        border-radius: 5px;
+    }
+
+    .section-container-bookings {
+        margin: 10px;
+        padding: 10px;
+    }
 }
+
 
 @media only screen and (max-width: 400px) {
     .trypsy-heading {
@@ -529,4 +802,17 @@ i a {
     }
 
 }
+
+@media only screen and (max-width:1110px) and (min-width:990px) {
+    .trypsy-heading {
+        font-size: 2.5em;
+        letter-spacing: 0.9em;
+        font-family: "Roboto";
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        padding-top: 20px;
+    }
+}
+
 /*-----------------------------------------------------------end landing-pg media-queries*/

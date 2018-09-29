@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
 
     <meta name="viewport" content="width-device-width, initial-scale-1">
 
@@ -14,61 +14,31 @@
 </head>
 
 <body>
-    <header class="container-fluid header-container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="row">
-                    <div class="col-xs-6 col-sm-6 col-md-6">
-                        <a href="landing-pg.html">
-                            <h1 class="text-uppercase trypsy-heading">Trypsy</h1>
-                        </a>
-                    </div>
-                    <div class="col-xs-6 col-sm-6 col-md-6">
-                        <div class="left-header">
-                            <h4 class="text-uppercase trypsy-descriptor"><small>Trypsy Travelling Gypsy Trance</small></h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="w-100"></div>
-                <div class="row">
-                    <div class="col-xs-6 col-sm-6 col-md-6">
-                        <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776;Explore</span>
-                        <div id="sideNav" class="sidenav" <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                            <a href="landing-pg.html">Home</a>
-                            <a href="about.html">About</a>
-                            <a href="music.html">Music</a>
-                            <a href="press&media.html">Press & Media</a>
-                            <a href="contact.html">Contact</a>
-                        </div>
-                    </div>
-
-                    <div class="col-xs-6 col-sm-6 col-md-6 links-wrapper">
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-12 col-md-12">
-                                <ul class="list-inline social-links">
-                                    <li><a target="_blank" href="/"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a target="_blank" href="/"><i class="fa fa-youtube"></i></a></li>
-                                    <li><a target="_blank" href="/"><i class="fa fa-soundcloud"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="col-xs-12 col-sm-12 col-md-12">
-                                <ul class="list-inline social-links">
-                                    <li><a target="_blank" href="/"><i class="fa fa-instagram"></i></a></li>
-                                    <li><a target="_blank" href="/"><i class="fa fa-youtube"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <header>
+        <div class="small-header">
+            <span id="explore-menu" class="explore-btn-style" style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            <div id="sideNav" class="sidenav" <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="landing-pg.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="music.html">Music</a>
+                <a href="press&media.html">Press & Media</a>
+                <a href="contact.html">Contact</a>
             </div>
         </div>
     </header>
-    <!--bookings form-->
-    <section class="container-fluid">
+    <section class="p-container">
+        <p class='p-text'>Make Love and Music...</p>
+    </section>
+    <section class='section-under-construction'>
+        <h2 class='text-under-construction'>Under Construction</h2>
+    </section>
+    <footer class="footer-container">
         <div class="row">
-            <div class="col-md-12 col-lg-12 bg-color-connect connect-position">
-                <h3 class="connect-header">Connect</h3>
-                <ul class="list-inline connect-links">
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                <p class="footer-text">@Trypsy Dance if you want to fall over</p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 social-links-footer">
+                <ul class="list-inline social-listen">
                     <li><a target="_blank" href="/"><i class="fa fa-facebook"></i></a></li>
                     <li><a target="_blank" href="/"><i class="fa fa-youtube"></i></a></li>
                     <li><a target="_blank" href="/"><i class="fa fa-soundcloud"></i></a></li>
@@ -77,62 +47,7 @@
                 </ul>
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-12 col-md-4 icon-text-wrapper-outer bg-color-bookings">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h3 class="gigPg-heading uppercase">Enquiries & Bookings Form</h3>
-                    </div>
-                </div>
-                <div class="form">
-                    <form>
-                        <input type="text" class="form-control form-marginStyle" name="name" id="fullname" placeholder="Name/Company" required>
-                        <input type="text" class="form-control form-marginStyle" name="email" id="email" placeholder="Email" required>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="row">
-                                    <div class="col-xs-6 col-md-6">
-                                        <input type="text" class="form-control form-marginStyle" name="location" id="location" placeholder="Venue / Event" required>
-                                    </div>
-                                    <div class="col-xs-6 col-md-6">
-                                        <input type="text" class="form-control form-marginStyle" name="dates" id="dates" placeholder="Dates" required>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12 form-marginStyle">
-                                <textarea class="message-input-radius" rows="5" cols="45" name="message" id="usrmessage" placeholder="Message"></textarea>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <div class="row">
-                                    <div class="col-xs-6 col-md-6 form-marginStyle">
-                                        <button type="submit" class="btn btn-default">Send Message!</button>
-                                    </div>
-                                    <div class="col-xs-6 col-md-6 form-marginStyle">
-                                        <ul class="list-inline soundcloud-links gig-links download-text">
-                                            <li><a target="/" href="/"><i class="fa fa-cloud-download"></i><p>download<br>presspack 2018</p></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer class="container-fluid footer-container">
-        <div class="row">
-            <div class="col-md-12">
-                <p class="footer-text">dance if you want to fall over</p>
-            </div>
-        </div>
     </footer>
-
 </body>
 
 </html>
