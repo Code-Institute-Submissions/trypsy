@@ -33,13 +33,17 @@ If this were a website for a high-cost commercial band who successfully sell hig
  I've often seen overpopulated content areas, which in my opinion is a disadvantage to good UX. I prefer  to use visual guides e.g video, photo, css tricks, colors, animations, tooltips & icons where possible to inform a user about functionality and content. This website therefore shows only necessary information, concisely and cleanly. 
 
 # TECHNOLOGY USED
--This site was built using the scripting language HTML5, styling with CSS, and simple logic with JS for side bar navigation. 
--Bootstrap Responsive Grid System provided a great solution for clean styling and layout: 
-https://getbootstrap.com/
--Fonts were sourced from Google Fonts https://fonts.google.com/. Many fonts are already cauched in user browsers helping with page load time!
--Font Awesome Icons provided a great selection of free icons https://fontawesome.com/
--The hover style used throughout was sourced from cloudflare by open-source author-developer Ian Lunn
-https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css
+    1) This site was built using the scripting language HTML5, styling with CSS, and simple logic with JS for side bar navigation. 
+    
+    2) Bootstrap Responsive Grid System provided a great solution for clean styling and layout: 
+    https://getbootstrap.com/
+    
+    3) Fonts were sourced from Google Fonts https://fonts.google.com/. Many fonts are already cauched in user browsers helping with page load time!
+    
+    4) Font Awesome Icons provided a great selection of free icons https://fontawesome.com/
+    
+    5) The hover style used throughout was sourced from cloudflare by open-source author-developer Ian Lunn
+    https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css
 
 # DEPLOYMENT
 
