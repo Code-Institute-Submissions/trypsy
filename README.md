@@ -1,7 +1,7 @@
 # TRYPSY WEBSITE
 
 # ------------------------- intro summary 
-This is a 4 page website built for assesment by CI Dublin following modules in HTML, CSS and User Centric Frontend Dev. The website is incomplete, due to the specifications of the project: 'Create a website of around 4-5 pages'. The full design can be viewed in the wireframe attached in the folder. Meanwhile, what I have built for this project encapsulates the most important aspect of the website's design: a 3-option navigation system. 
+This is a 4 page website built for assesment by CI Dublin following modules in HTML, CSS and User Centric Frontend Dev. The website is incomplete, due to the specifications of the project: 'Create a website of around 4-5 pages'. The full design can be viewed in the wireframe attached in the folder 'wireframe' by running the enclosed page 'wireframe.html'. Meanwhile, what I have built for this project encapsulates the most important aspect of the website's design: a 3-option navigation system leading to 3 most-visited pages, alongside the landing page. 
 
 The website I have chosen to design is for an up-and-coming band called 'Trypsy'. I have centered the main functionality of this website around a '3-option nav' system, instead of the traditional landing page with muitple option navigation. The purpose of this is to assist the customer in accessing the information they want as quickly as possible. A customer who has to search too much to find what they need is an unhappy customer. The best website will accurately predict usage trends and cater design to those predictions. Therefore, the 3 option nav predicts the 3 main uses for a up-and-coming band website; 1. listening to music, 2. finding gigs, and 3. booking the band. 
 
