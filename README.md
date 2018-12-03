@@ -45,10 +45,10 @@ If this were a website for a high-cost commercial band who successfully sell hig
     5) The hover style used throughout was sourced from cloudflare by open-source author-developer Ian Lunn
     https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css
 
-# DEPLOYMENT
 
 # TESTING
-Testing was not taught at this level of learning. 
+Manula Testing:
+I tested the routes and page loads by navigating around the site. Allpages loaded as expected. The image on the bookings page is perhaps too heavy, but of course loads well when cached. 
 
 # CREDITS 
 # ------------------------- media
