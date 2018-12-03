@@ -1,5 +1,5 @@
 # TRYPSY WEBSITE
-
+Live Demo: https://trypsy-website.herokuapp.com/
 # ------------------------- intro summary 
 This is a 4 page website built for assesment by CI Dublin following modules in HTML, CSS and User Centric Frontend Dev. The website is incomplete, due to the specifications of the project: 'Create a website of around 4-5 pages'. The full design can be viewed in the wireframe attached in the folder 'wireframe' by running the enclosed page 'wireframe.html'. Meanwhile, what I have built for this project encapsulates the most important aspect of the website's design: a 3-option navigation system leading to 3 most-visited pages, alongside the landing page. 
 
@@ -52,6 +52,7 @@ This failed numerous times until I realized I had the wrong package installed. F
 
     $ heroku buildpacks:set heroku/php
 
+This way, heroku knows how to handle the php file workaround. 
 
 # TESTING
 Manula Testing:
