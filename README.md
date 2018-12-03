@@ -45,6 +45,13 @@ If this were a website for a high-cost commercial band who successfully sell hig
     5) The hover style used throughout was sourced from cloudflare by open-source author-developer Ian Lunn
     https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css
 
+# Deployment
+To work around deploying a static site, I've included an index.php file that redirects to index.html. This seems to be a standard method of deploying static sites to Heroku. 
+
+This failed numerous times until I realized I had the wrong package installed. From the CLI run after creating heroku app: 
+
+    $ heroku buildpacks:set heroku/php
+
 
 # TESTING
 Manula Testing:
